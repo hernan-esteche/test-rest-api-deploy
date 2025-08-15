@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/movies')
+fetch('https://my-backend.onrender.com/movies')
 	.then((response) => response.json())
 	.then((data) => {
 		console.log(data);

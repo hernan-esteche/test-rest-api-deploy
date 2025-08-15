@@ -12,7 +12,10 @@ app.disable('x-powered-by');
 
 app.use(express.json());
 
-const allowedOrigins = ['http://127.0.0.1:5500'];
+const allowedOrigins = [
+	'https://my-frontend.onrender.com',
+	'http://127.0.0.1:5500',
+];
 
 app.use(
 	cors({
