@@ -2,8 +2,8 @@ import crypto from 'node:crypto';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
-import movies from '../movies.json' with { type: 'json' };
 import { validateMovie, validatePartialMovie } from './movies.js';
+import movies from './movies.json' with { type: 'json' };
 
 dotenv.config();
 
