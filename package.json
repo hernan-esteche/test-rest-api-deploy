@@ -1,0 +1,31 @@
+{
+	"name": "rest-api-deploy",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./app.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"check": "pnpm exec biome check --write --unsafe ./test.js",
+		"dev": "nodemon ./test.js",
+		"dev2": "nodemon ./routing.js",
+		"dev3": "nodemon ./express.js",
+		"dev4": "nodemon ./clase-3/app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.14.0",
+	"devDependencies": {
+		"@biomejs/biome": "2.1.4",
+		"picocolors": "^1.1.1",
+		"nodemon": "^3.1.10"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"dotenv": "^17.2.1",
+		"zod": "^4.0.17"
+	}
+}

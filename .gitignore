@@ -1,0 +1,4 @@
+node_modules
+biome.json
+.env
+backend/api.http
