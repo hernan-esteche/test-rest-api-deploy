@@ -1,4 +1,4 @@
-fetch('https://my-backend.onrender.com/movies')
+fetch('https://test-rest-api-deploy.onrender.com/movies')
 	.then((response) => response.json())
 	.then((data) => {
 		console.log(data);
