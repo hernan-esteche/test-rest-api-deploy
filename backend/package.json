@@ -11,7 +11,7 @@
 		"dev": "nodemon ./test.js",
 		"dev2": "nodemon ./routing.js",
 		"dev3": "nodemon ./express.js",
-		"dev4": "nodemon ./clase-3/app.js"
+		"dev4": "nodemon ./app.js"
 	},
 	"keywords": [],
 	"author": "",
@@ -19,13 +19,14 @@
 	"packageManager": "pnpm@10.14.0",
 	"devDependencies": {
 		"@biomejs/biome": "2.1.4",
-		"picocolors": "^1.1.1",
-		"nodemon": "^3.1.10"
+		"nodemon": "^3.1.10",
+		"picocolors": "^1.1.1"
 	},
 	"dependencies": {
 		"cors": "^2.8.5",
-		"express": "^5.1.0",
 		"dotenv": "^17.2.1",
+		"express": "^5.1.0",
+		"mongodb": "^6.18.0",
 		"zod": "^4.0.17"
 	}
 }

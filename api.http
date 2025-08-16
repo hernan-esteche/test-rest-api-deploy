@@ -1,0 +1,40 @@
+# GET https://test-rest-api-deploy.onrender.com/movies
+
+# GET http://localhost:3000/movies/
+
+# GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+# GET http://localhost:3000/movies/?genre=Action
+
+# POST http://localhost:3000/movies
+# Content-Type: application/json
+
+# {
+#   "title": "Finding Nemo",
+#   "year": 2003,
+#   "director": "Andrew Stanton, Lee Unkrich",
+#   "duration": 100,
+#   "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+#   "genre": ["Animation", "Adventure", "Comedy"]
+# }
+
+# PATCH http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+# Content-Type: application/json
+
+# {
+#   "year": 2004
+# }
+
+# PUT http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+# Content-Type: application/json
+
+# {
+#   "title": "Finding Nem",
+#   "year": 2003,
+#   "director": "Andrew Stanton, Lee Unkrich",
+#   "duration": 100,
+#   "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+#   "genre": ["Animation", "Adventure", "Comedy"]
+# }
+
+# DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
