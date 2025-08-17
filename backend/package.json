@@ -8,10 +8,7 @@
 		"start": "node ./app.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"check": "pnpm exec biome check --write --unsafe ./test.js",
-		"dev": "nodemon ./test.js",
-		"dev2": "nodemon ./routing.js",
-		"dev3": "nodemon ./express.js",
-		"dev4": "nodemon ./app.js"
+		"dev": "nodemon ./app.js"
 	},
 	"keywords": [],
 	"author": "",
