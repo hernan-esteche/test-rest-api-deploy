@@ -1,4 +1,40 @@
-node_modules
-biome.json
+# Node dependencies
+node_modules/
+
+# Environment variables
 .env
-backend/api.http
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Build / cache
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+# Coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# HTTP request files (opcional, si son locales de prueba)
+api.http
+
+# Optional OS-specific files
+*.swp
+*.swo
+node_modules/
+.pnpm-store/
+yarn.lock
