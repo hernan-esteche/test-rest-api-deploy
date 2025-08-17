@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/complexity/noStaticOnlyClass: <> */
 import crypto from 'node:crypto';
 import movies from '../movies.json' with { type: 'json' };
 
